@@ -17,10 +17,10 @@ const skillPage = () => {
         <Heading>Technical Skills & Experience</Heading>
         <FramerWrapper y={0} x={200}>
           <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-            I am a fresher with a strong foundation in HTML5, CSS3, JavaScript, TypeScript, and React, along with a 
-            clear understanding of responsive web design principles. I focus on building modern and user-friendly 
-            web applications using JavaScript, TypeScript, React, Next.js, and Node.js. I continuously improve my 
-            skills by developing projects and learning best practices in web development.
+           I am a Computer Science student with a good understanding of programming languages such as Java, 
+           Python, and C++. I enjoy learning how software and applications work by writing code and building 
+           small projects. Along with programming, I have basic knowledge of web technologies like HTML, CSS, and JavaScript.
+           I continuously improve my skills by practicing regularly, exploring new concepts, and applying what I learn in real projects..
           </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">

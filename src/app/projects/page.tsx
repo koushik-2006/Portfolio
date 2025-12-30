@@ -17,9 +17,8 @@ const projectsPage = () => {
         <Heading>My Projects</Heading>
         <FramerWrapper y={0} x={200}>
           <p className=" font-poppins text-lg w-full text-primary max-sm:text-base">
-            I build projects to apply my technical skills and explore modern web technologies. Each 
-            project demonstrates my problem-solving mindset, continuous learning, and ability to develop practical and
-             user-friendly applications
+            I build projects to practice my skills and explore new web technologies. Each project reflects my interest
+            in problem solving, learning new things, and creating applications that are simple and easy to use
           </p>
         </FramerWrapper>
       </div>
