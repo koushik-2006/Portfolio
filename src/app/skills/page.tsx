@@ -14,13 +14,13 @@ const skillPage = () => {
         My Skills
       </Badge>
       <div className="flex flex-col gap-3">
-        <Heading>My Technical Experience/Skills.</Heading>
+        <Heading>Technical Skills & Experience</Heading>
         <FramerWrapper y={0} x={200}>
           <p className="font-poppins text-xl w-full text-primary max-sm:text-lg">
-            Currently i am a fresher and i have a solid understand of HTML5,
-            CSS3, JS, TS and React, including responsive design principles. I
-            specialize in building web applications and sites using Javascript,
-            Typescript, React, Nextjs & Node.
+            I am a fresher with a strong foundation in HTML5, CSS3, JavaScript, TypeScript, and React, along with a 
+            clear understanding of responsive web design principles. I focus on building modern and user-friendly 
+            web applications using JavaScript, TypeScript, React, Next.js, and Node.js. I continuously improve my 
+            skills by developing projects and learning best practices in web development.
           </p>
         </FramerWrapper>
         <FramerWrapper y={100} delay={0.3} className="block w-full">

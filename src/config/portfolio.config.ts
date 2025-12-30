@@ -1,6 +1,6 @@
 export const portfolioConfig = {
   // Basic Information
-  name: "Md Taqui Imam",
+  name: "KOUSHIK S ",
   title: "Software Engineer",
   description: "I am a Passionate Software Developer",
   location: "Ramgarh cantt, Jharkhand, India",
@@ -12,9 +12,9 @@ export const portfolioConfig = {
   socialLinks: {
     facebook: "https://www.facebook.com/shahina.khatun.1044",
     twitter: "https://twitter.com/Taquiimam14",
-    linkedin: "https://www.linkedin.com/in/taqui-imam",
+    linkedin: "https://www.linkedin.com/in/koushik-cse/",
     external: "https://tinyurl.com/MdTaquiImam",
-    github: "https://github.com/taqui-786", // Assuming this is the GitHub link
+    github: "https://github.com/koushik-2006", // Assuming this is the GitHub link
   },
 
   // SEO Information
@@ -32,8 +32,8 @@ export const portfolioConfig = {
       "Taqui",
       "Imam",
       "Imam",
-      "Md Taqui Imam",
-      "md taqui imam",
+      "KOUSHIK",
+      "koushik",
       "mdtaqui",
       "mdtaquiimam",
       "taqui imam",
@@ -46,7 +46,7 @@ export const portfolioConfig = {
       "developer",
       "PROGRAMMER ",
       "programmer ",
-      "MD TAQUI IMAM ",
+      "KOUSHIK S",
       "website",
       "@Taquiimam",
       "Taquiimam",
@@ -55,20 +55,20 @@ export const portfolioConfig = {
     authors: [
       {
         name: "Taqui Imam",
-        url: "https://github.com/taqui-786",
+        url: "https://github.com/koushik-2006",
       },
     ],
   },
 
   // About Information
   about: {
-    bio: "I am a Full Stack Web Developer from Ramgarh cantt, Jharkhand, India. I'm passionate about crafting web projects and contributing to open-source communities. I specialize in modern JavaScript frameworks and responsive CSS design, focusing on creating pixel-perfect, user-friendly interfaces. With strong attention to detail and efficient delivery, I build seamless web experiences that combine functionality with elegant design.",
+    bio: "My name is Koushik S, and I am a Full-Stack Web Developer from Karur, Tamil Nadu, India. I am passionate about building modern and responsive web applications and continuously improving my development skills. I work with modern JavaScript technologies and responsive CSS to create clean, user-friendly, and visually appealing interfaces. I focus on writing efficient code and delivering reliable web solutions that provide smooth and seamless user experiences",
     hobbies: [
       "Coding",
       "Playing Games",
-      "Watching Anime",
-      "Tech Blog Writing",
-      "Creating Cool Projects",
+      "Exploring New Technologies",
+      "Problem Solving",
+      "Building Projects",
     ],
     personalInfo: {
       language: "English UK",
@@ -183,13 +183,14 @@ export const portfolioConfig = {
   // Education Information
   education: [
     {
-      degree: "Bachelor of Computer Application",
-      institution: "Ranchi University Jharkhand",
-      location: "Doranda College Ranchi",
-      period: "July 2023 - 2026",
-      description:
-        "I am currently Studying Bachelor of Computer Application form Doranda College Ranchi a Goverment College of Ranchi. The program has provided me with a well-rounded education, covering both theoretical foundations and practical applications of computer science.",
-    },
+  degree: "Bachelor of Engineering (Computer Science and Engineering)",
+  institution: "V.S.B Engineering College",
+  location: "Karur, Tamil Nadu, India",
+  period: "September 2024 – 2028",
+  description:
+    "I am currently pursuing a Bachelor of Engineering in Computer Science and Engineering at V.S.B Engineering College. The program provides a strong foundation in computer science fundamentals, programming, and practical software development, helping me build both theoretical knowledge and hands-on skills.",
+},
+
   ],
 
   // Projects Information
@@ -213,14 +214,14 @@ export const portfolioConfig = {
       description:
         "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+      link: "https://github.com/koushik-2006/itZmyLink",
     },
     {
       title: "GitEstimate- Github estimate worth generator",
       description:
         "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
       tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+      link: "https://github.com/koushik-2006/GitEstimate",
     },
     {
       title: "Mixcn-ui- Reusable components for Nextjs",
@@ -255,28 +256,28 @@ export const portfolioConfig = {
       description:
         "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
       tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
+      link: "https://github.com/koushik-2006/project-friendz",
     },
     {
       title: "ChatApp- Simple instagram clone",
       description:
         "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
       tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
+      link: "https://github.com/koushik-2006/chatapp-api",
     },
     {
       title: "Devletter - A Newsletter for devs",
       description:
         "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
       tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
+      link: "https://github.com/koushik-2006/Devletter",
     },
     {
       title: "CrouMaker - A Crousal Maker App",
       description:
         "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
       tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
+      link: "https://github.com/koushik-2006/crousal-maker",
     },
   ],
 
