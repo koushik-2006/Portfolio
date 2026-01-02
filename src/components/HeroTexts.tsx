@@ -12,10 +12,7 @@ const HeroTexts = () => {
     <>
       <h3 className="font-poppins text-2xl max-sm:text-xl">My Name is</h3>
       <h1 className="font-rubik text-8xl name_underline text-primary max-sm:text-6xl ">
-      {firstName}
-      <br />
-      <span className="text-7xl max-sm:text-5xl">.{lastName}</span>
-.
+        {firstName} {middleName} <br /> {lastName} .
       </h1>
       <TextRotator />
     </>
