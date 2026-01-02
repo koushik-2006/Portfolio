@@ -26,9 +26,9 @@ import { portfolioConfig } from "@/config/portfolio.config";
 
 export default function Home() {
   return (
-    <main className="w-full overflow-y-auto scroll-smooth">
+    <main className="w-full h-screen overflow-y-scroll scroll-smooth snap-y snap-mandatory">
 
-      {/* ================= HOME (ONLY ONE FULL SCREEN) ================= */}
+      {/* ================= HOME (FULL SCREEN ONLY) ================= */}
       <section
         id="home"
         className="h-screen snap-start flex items-center justify-between px-10"
@@ -49,9 +49,9 @@ export default function Home() {
       {/* ================= ABOUT ================= */}
       <section
         id="about"
-        className="min-h-screen py-32 px-10 snap-start"
+        className="snap-start py-40 px-10"
       >
-        <div className="max-w-7xl mx-auto flex flex-col gap-12">
+        <div className="max-w-7xl mx-auto flex flex-col gap-14">
           <Badge variant="secondary" className="w-fit gap-2">
             <User2 className="h-4 w-4" /> About Me
           </Badge>
@@ -68,7 +68,7 @@ export default function Home() {
           <Aboutfooter />
 
           <div className="flex flex-col gap-6">
-            <h2 className="text-3xl font-semibold flex gap-2">
+            <h2 className="text-3xl font-semibold flex gap-2 items-center">
               <Heart /> Hobbies
             </h2>
 
@@ -87,9 +87,9 @@ export default function Home() {
       {/* ================= SKILLS ================= */}
       <section
         id="skills"
-        className="min-h-screen py-32 px-10 snap-start"
+        className="snap-start py-40 px-10"
       >
-        <div className="max-w-7xl mx-auto flex flex-col gap-12">
+        <div className="max-w-7xl mx-auto flex flex-col gap-14">
           <Badge variant="secondary" className="w-fit gap-2">
             <LightbulbIcon className="h-4 w-4" /> My Skills
           </Badge>
@@ -102,7 +102,7 @@ export default function Home() {
             learning by building real-world projects.
           </p>
 
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-12">
             <SkillsFooter items={portfolioConfig.skills.programmingLanguages} />
             <SkillsFooter items={portfolioConfig.skills.frameworks} />
             <SkillsFooter items={portfolioConfig.skills.tools} />
@@ -113,16 +113,16 @@ export default function Home() {
       {/* ================= PROJECTS ================= */}
       <section
         id="projects"
-        className="min-h-screen py-32 px-10 snap-start"
+        className="snap-start py-40 px-10"
       >
-        <div className="max-w-7xl mx-auto flex flex-col gap-12">
+        <div className="max-w-7xl mx-auto flex flex-col gap-14">
           <Badge variant="secondary" className="w-fit gap-2">
             <Layers className="h-4 w-4" /> Projects
           </Badge>
 
           <Heading>My Projects</Heading>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-10">
             {portfolioConfig.projects.map((project, i) => (
               <ProjectCards key={i} value={project} num={i} />
             ))}
@@ -133,28 +133,30 @@ export default function Home() {
       {/* ================= EDUCATION ================= */}
       <section
         id="education"
-        className="min-h-screen py-32 px-10 snap-start"
+        className="snap-start py-40 px-10"
       >
-        <div className="max-w-7xl mx-auto flex flex-col gap-12">
+        <div className="max-w-7xl mx-auto flex flex-col gap-14">
           <Badge variant="secondary" className="w-fit gap-2">
             <Briefcase className="h-4 w-4" /> Education
           </Badge>
 
           <Heading>My Education</Heading>
 
-          <div className="flex flex-col gap-12">
+          <div className="flex flex-col gap-14">
             {portfolioConfig.education.map((edu, i) => (
-              <div key={i} className="flex gap-10">
-                <div className="w-1/4 font-medium">
+              <div key={i} className="flex gap-10 max-md:flex-col">
+                <div className="w-1/4 font-medium max-md:w-full">
                   {edu.period}
                 </div>
 
-                <div className="w-3/4 border-l-4 pl-6">
+                <div className="w-3/4 border-l-4 pl-6 max-md:w-full max-md:border-l-0 max-md:pl-0">
                   <h3 className="text-2xl font-semibold">
                     {edu.degree}
                   </h3>
                   <p className="mt-2">{edu.institution}</p>
-                  <p className="mt-4 text-lg">{edu.description}</p>
+                  <p className="mt-4 text-lg leading-relaxed">
+                    {edu.description}
+                  </p>
                 </div>
               </div>
             ))}
@@ -165,9 +167,9 @@ export default function Home() {
       {/* ================= CONTACT ================= */}
       <section
         id="contact"
-        className="min-h-screen py-32 px-10 snap-start"
+        className="snap-start py-40 px-10"
       >
-        <div className="max-w-5xl mx-auto flex flex-col gap-12">
+        <div className="max-w-5xl mx-auto flex flex-col gap-14">
           <Badge variant="secondary" className="w-fit gap-2">
             <Phone className="h-4 w-4" /> Contact
           </Badge>

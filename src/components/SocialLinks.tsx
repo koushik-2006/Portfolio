@@ -39,15 +39,16 @@ const SocialLinks = () => {
       icon: <Github />,
     },
   ];
+
   return (
-    <>
+    <div className="flex flex-col gap-4">
       {links.map((itm, indx) => {
         const timing = 0.55 + indx * 0.125;
 
         return (
           <FramerWrapper key={indx} delay={timing} y={50}>
             <Link
-              target="blank"
+              target="_blank"
               href={itm.link}
               className={cn(
                 buttonVariants({ variant: "outline", size: "icon" })
@@ -58,7 +59,7 @@ const SocialLinks = () => {
           </FramerWrapper>
         );
       })}
-    </>
+    </div>
   );
 };
 
