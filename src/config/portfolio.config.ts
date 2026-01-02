@@ -11,9 +11,9 @@ export const portfolioConfig = {
   // Social Media Links
   socialLinks: {
     facebook: "https://www.instagram.com/itz_me_eliteboy/",
-    twitter: "https://twitter.com/Taquiimam14",
+    twitter: "https://www.hackerrank.com/profile/koushik_sethura1",
     linkedin: "https://www.linkedin.com/in/koushik-cse/",
-    external: "https://tinyurl.com/MdTaquiImam",
+    external: "https://leetcode.com/u/koushiksethuraman/",
     github: "https://github.com/koushik-2006", // Assuming this is the GitHub link
   },
 

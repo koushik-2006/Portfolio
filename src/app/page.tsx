@@ -5,81 +5,130 @@ import GithubBtn from "@/components/animation/GithubBtn";
 import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 
+/* ABOUT */
+import Aboutfooter from "@/components/Aboutfooter";
+import Heading from "@/components/Heading";
+import { Badge } from "@/components/ui/badge";
+import { Circle, Heart, User2, LightbulbIcon, Layers, Phone, Briefcase } from "lucide-react";
+import SkillsFooter from "@/components/SkillsFotter";
+import ProjectCards from "@/components/ProjectsCard";
+import ContactForm from "@/components/ContactForm";
+import { portfolioConfig } from "@/config/portfolio.config";
+
 export default function Home() {
   return (
-    <main
-      className="
-        h-screen
-        overflow-y-scroll
-        snap-y
-        snap-mandatory
-        scroll-smooth
-      "
-    >
-      {/* ================= HOME SECTION ================= */}
-      <section
-        id="home"
-        className="h-screen snap-start flex items-center justify-between px-10"
-      >
-        {/* LEFT SIDE */}
-        <FramerWrapper
-          className="h-full w-auto flex flex-col justify-start gap-4"
-          y={0}
-          x={-100}
-        >
+    <main className="h-screen overflow-y-scroll snap-y snap-mandatory scroll-smooth">
+
+      {/* ================= HOME ================= */}
+      <section id="home" className="h-screen snap-start flex items-center justify-between px-10">
+        <FramerWrapper className="flex flex-col gap-4" x={-100}>
           <HeroTexts />
-
-          <div className="h-fit w-full p-4 flex gap-4">
-            <SocialLinks />
-          </div>
-
+          <SocialLinks />
           <DownLoadResumeBtn />
         </FramerWrapper>
 
-        {/* RIGHT SIDE */}
-        <FramerWrapper
-          className="h-full w-[47%] relative block max-lg:hidden"
-          y={0}
-          x={100}
-        >
+        <FramerWrapper className="w-[47%] max-lg:hidden" x={100}>
           <HeroImage />
         </FramerWrapper>
 
-        {/* GITHUB BUTTON */}
         <GithubBtn />
       </section>
 
-      {/* ================= ABOUT SECTION ================= */}
-      <section
-        id="about"
-        className="h-screen snap-start flex items-center justify-center"
-      >
-        <h1 className="text-4xl font-bold">About Section</h1>
+      {/* ================= ABOUT ================= */}
+      <section id="about" className="h-screen snap-start px-10 flex items-center">
+        <div className="w-full flex flex-col gap-5">
+          <Badge variant="secondary" className="gap-1.5 py-1">
+            <User2 className="h-4 w-4" /> About me
+          </Badge>
+
+          <Heading>
+            {portfolioConfig.title} And Web <br />
+            Developer, Based In {portfolioConfig.about.personalInfo.nationality}.
+          </Heading>
+
+          <FramerWrapper x={100}>
+            <p className="text-xl text-primary">{portfolioConfig.about.bio}</p>
+          </FramerWrapper>
+
+          <Aboutfooter />
+
+          <h1 className="flex gap-2 text-3xl font-semibold">
+            <Heart /> Hobbies
+          </h1>
+
+          <div className="flex flex-wrap gap-6">
+            {portfolioConfig.about.hobbies.map((h, i) => (
+              <div key={i} className="flex gap-2 text-xl">
+                <Circle className="h-3 w-3" /> {h}
+              </div>
+            ))}
+          </div>
+        </div>
       </section>
 
-      {/* ================= SKILLS SECTION ================= */}
-      <section
-        id="skills"
-        className="h-screen snap-start flex items-center justify-center"
-      >
-        <h1 className="text-4xl font-bold">Skills Section</h1>
+      {/* ================= SKILLS ================= */}
+      <section id="skills" className="h-screen snap-start px-10 flex items-center">
+        <div className="w-full flex flex-col gap-5">
+          <Badge variant="secondary"><LightbulbIcon className="h-4 w-4" /> My Skills</Badge>
+
+          <Heading>Technical Skills & Experience</Heading>
+
+          <FramerWrapper x={200}>
+            <p className="text-xl text-primary">
+              I am a Computer Science student with good knowledge of Java, Python, C++ and web technologies.
+            </p>
+          </FramerWrapper>
+
+          <SkillsFooter items={portfolioConfig.skills.programmingLanguages} />
+          <SkillsFooter items={portfolioConfig.skills.frameworks} />
+          <SkillsFooter items={portfolioConfig.skills.tools} />
+        </div>
       </section>
 
-      {/* ================= PROJECTS SECTION ================= */}
-      <section
-        id="projects"
-        className="h-screen snap-start flex items-center justify-center"
-      >
-        <h1 className="text-4xl font-bold">Projects Section</h1>
+      {/* ================= PROJECTS ================= */}
+      <section id="projects" className="h-screen snap-start px-10 flex items-center">
+        <div className="w-full flex flex-col gap-5">
+          <Badge variant="secondary"><Layers className="h-4 w-4" /> Projects</Badge>
+          <Heading>My Projects</Heading>
+
+          <div className="flex flex-wrap gap-4">
+            {portfolioConfig.projects.map((p, i) => (
+              <ProjectCards key={i} value={p} num={i} />
+            ))}
+          </div>
+        </div>
       </section>
 
-      {/* ================= CONTACT SECTION ================= */}
-      <section
-        id="contact"
-        className="h-screen snap-start flex items-center justify-center"
-      >
-        <h1 className="text-4xl font-bold">Contact Section</h1>
+      {/* ================= EDUCATION ================= */}
+      <section id="education" className="h-screen snap-start px-10 flex items-center">
+        <div className="w-full flex flex-col gap-5">
+          <Badge variant="secondary"><Briefcase className="h-4 w-4" /> Education</Badge>
+          <Heading>My Education</Heading>
+
+          {portfolioConfig.education.map((edu, i) => (
+            <div key={i} className="flex">
+              <div className="w-1/4">{edu.period}</div>
+              <div className="w-3/4 border-l-4 p-4">
+                <h3>{edu.degree} – {edu.institution}</h3>
+                <p>{edu.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
+
+      {/* ================= CONTACT ================= */}
+      <section id="contact" className="h-screen snap-start px-10 flex items-center">
+        <div className="w-full flex flex-col gap-5">
+          <Badge variant="secondary"><Phone className="h-4 w-4" /> Contact</Badge>
+          <Heading>Contact Me</Heading>
+
+          <FramerWrapper scale={0.8}>
+            <ContactForm />
+          </FramerWrapper>
+        </div>
+      </section>
+
     </main>
   );
 }
