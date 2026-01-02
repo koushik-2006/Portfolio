@@ -210,7 +210,7 @@ export const portfolioConfig = {
   // More Links Information
   moreLinks: [
     {
-      title: "Dev.to",
+      title: "Dev.too",
       description:
         "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
       link: "https://dev.to/random_ti",
