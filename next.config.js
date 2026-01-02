@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    basePath: '/Portfolio',
+    // output: 'export',
+    // basePath: '/Portfolio',
     serverExternalPackages: [
         '@react-email/render',
     ],
@@ -21,3 +21,4 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+
