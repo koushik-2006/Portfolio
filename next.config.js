@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    experimental:{
-        serverComponentsExternalPackages: [
-            '@react-email/render',
-        ],
+    serverExternalPackages: [
+        '@react-email/render',
+    ],
+    experimental: {
         // images:{
         //     remotePatterns:[
         //         {
