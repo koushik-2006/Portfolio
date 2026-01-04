@@ -1,7 +1,7 @@
 # 🚀 Koushik S – Portfolio
 
 A **simple, clean, and responsive personal portfolio website** built using **Next.js** and **Shadcn UI**.  
-This portfolio highlights my **skills, projects, education, and contact information** in a clear and professional manner.
+This portfolio showcases my **skills, projects, education, and contact information** in a clear and professional manner.
 
 ---
 
@@ -47,73 +47,71 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
 Then open your browser and visit:
 
-arduino
-Copy code
 http://localhost:3000
+
+
 You can edit the main page by modifying:
 
-bash
-Copy code
 app/page.tsx
-All changes will be reflected automatically.
 
+All changes will be reflected automatically.
 This project uses next/font to optimize and load the Inter Google Font.
 
 ⚙️ Configuration
 All personal details used in this portfolio are managed through a single configuration file:
 
-arduino
-Copy code
 src/config/portfolio.config.ts
+
 This approach keeps the project clean, organized, and easy to update.
 
 📁 Configuration Structure
 The configuration file contains the following sections:
 
-Basic Information
+•Basic Information
 Name, role, short description, and location
 
-Contact Information
+•Contact Information
 Email address and other contact details
 
-Social Media Links
+•Social Media Links
 Links to GitHub, LinkedIn, and other platforms
 
-SEO Information
+•SEO Information
 Keywords and metadata for better search visibility
 
-About Information
+•About Information
 A short introduction, interests, and personal details
 
-Skills
+•Skills
 Programming languages, tools, and technologies
 
-Education
+•Education
 Academic background and current studies
 
-Projects
+•Projects
 Project list with descriptions and live/demo links
 
-More Links
+•More Links
 Resume, certifications, achievements, and useful resources
 
 ✏️ Customizing the Portfolio
 To personalize this portfolio, simply update the values inside:
 
-arduino
-Copy code
 src/config/portfolio.config.ts
+
 All changes will automatically reflect across the website without modifying multiple files.
 
-Example Usage in a Component
-ts
-Copy code
+Example Usage in a Component:
+
 import { portfolioConfig } from "@/config/portfolio.config";
 
 // Access configuration values
 const { name, title } = portfolioConfig;
+
+
 📄 Resume
 My resume is available on the website and can be downloaded using the
 ⬇️ Download Resume button.
