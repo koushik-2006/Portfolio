@@ -1,24 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // output: 'export',
-    // basePath: '/Portfolio',
+    output: "export",           // REQUIRED for GitHub Pages
+    basePath: "/Portfolio",     // repo name
+    assetPrefix: "/Portfolio/",
+
     serverExternalPackages: [
-        '@react-email/render',
+        "@react-email/render",
     ],
+
     images: {
         unoptimized: true,
     },
-    experimental: {
-        // images:{
-        //     remotePatterns:[
-        //         {
-        //             protocol: 'https',
-        //             hostname: 'cdn.jsdelivr.net',
-        //         }
-        //     ]
-        // }
-    }
-}
+};
 
-module.exports = nextConfig
-
+module.exports = nextConfig;
