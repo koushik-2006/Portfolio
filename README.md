@@ -47,24 +47,26 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
 
 Then open your browser and visit:
-
+```bash
 http://localhost:3000
-
+```
 
 You can edit the main page by modifying:
-
+```bash
 app/page.tsx
+```
 
 All changes will be reflected automatically.
 This project uses next/font to optimize and load the Inter Google Font.
 
 ⚙️ Configuration
 All personal details used in this portfolio are managed through a single configuration file:
-
+```bash
 src/config/portfolio.config.ts
-
+```
 This approach keeps the project clean, organized, and easy to update.
 
 📁 Configuration Structure
@@ -99,18 +101,19 @@ Resume, certifications, achievements, and useful resources
 
 ✏️ Customizing the Portfolio
 To personalize this portfolio, simply update the values inside:
-
+```bash
 src/config/portfolio.config.ts
-
+```
 All changes will automatically reflect across the website without modifying multiple files.
 
 Example Usage in a Component:
-
+```bash
 import { portfolioConfig } from "@/config/portfolio.config";
 
 // Access configuration values
 const { name, title } = portfolioConfig;
 
+```
 
 📄 Resume
 My resume is available on the website and can be downloaded using the
