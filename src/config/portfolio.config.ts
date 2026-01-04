@@ -184,13 +184,13 @@ export const portfolioConfig = {
   // Education Information
   education: [
     {
-  degree: "Bachelor of Engineering (Computer Science and Engineering)",
-  institution: "V.S.B Engineering College",
-  location: "Karur, Tamil Nadu, India",
-  period: "September 2024 – 2028",
-  description:
-    "I am currently pursuing a Bachelor of Engineering in Computer Science and Engineering at V.S.B Engineering College. The program provides a strong foundation in computer science fundamentals, programming, and practical software development, helping me build both theoretical knowledge and hands-on skills.",
-},
+      degree: "Bachelor of Engineering (Computer Science and Engineering)",
+      institution: "V.S.B Engineering College",
+      location: "Karur, Tamil Nadu, India",
+      period: "September 2024 – 2028",
+      description:
+        "I am currently pursuing a Bachelor of Engineering in Computer Science and Engineering at V.S.B Engineering College. The program provides a strong foundation in computer science fundamentals, programming, and practical software development, helping me build both theoretical knowledge and hands-on skills.",
+    },
 
   ],
 
@@ -203,48 +203,38 @@ export const portfolioConfig = {
       tags: ["Html", "JavaScript", "CSS", "Python"],
       link: "https://koushik-2006.github.io/Expense-Tracker-/",
     },
-    
+
     // you can add more projects here like the same format as above 
   ],
 
   // More Links Information
   moreLinks: [
     {
-      title: "Dev.too",
+      title: "Certifications",
       description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Dev.to ",
+        "Completed technical certifications in web development, programming fundamentals, and modern technologies to strengthen my practical skills.",
       link: "https://dev.to/random_ti",
     },
     {
-      title: "Hashnode",
+      title: "Internships & Training",
       description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Hashnode",
+        "Completed internships and technical training programs to gain real-world experience in software and web development.",
       link: "https://mdtaquiimam.hashnode.dev/",
     },
     {
-      title: "Medium",
+      title: "Workshops",
       description:
-        "I write blogs on web development, trending tech stacks or javascript guide or tips in Medium",
-      link: "https://medium.com/@mdtaqui.jhar",
+        "Attended technical workshops and seminars related to programming, web development, and emerging technologies.",
+      link: "https://your-workshops-link",
     },
     {
-      title: "Daily.Dev",
+      title: "Hackathons & Events",
       description:
-        "I am also the member of Daily Dev squads and i also upload post on some squads.",
-      link: "https://app.daily.dev/taqui_786",
+        "Participated in hackathons, coding events, and tech meets to improve problem-solving and teamwork skills.",
+      link: "https://your-events-link",
     },
-    {
-      title: "Gumroad",
-      description:
-        "I also sell digital products on gumroad like Notion Templates and web projects etc.",
-      link: "https://mdtaquijhar.gumroad.com/",
-    },
-    {
-      title: "Buy Me a coffee",
-      description:
-        "Supports my content quality, new topics, and project creation.",
-      link: "https://www.buymeacoffee.com/taquidevloper",
-    },
+
+
   ],
 
   // API Keys (should be in .env but referenced here)
