@@ -1,12 +1,43 @@
-# Project Portfolio
+# 🚀 Koushik S – Portfolio
 
-A simple and Beautiful Porfolio made with Nextjs and Shadcn Ui.
+A **simple, clean, and responsive personal portfolio website** built using **Next.js** and **Shadcn UI**.  
+This portfolio highlights my **skills, projects, education, and contact information** in a clear and professional manner.
 
-![Demo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/u7eq68h0uvs6xqgw3yqe.jpeg)
+---
 
-## Getting Started
+## 🌐 Live Demo
 
-First, run the development server:
+👉 **https://koushik-2006.github.io/Portfolio/**
+
+---
+
+## 📌 About This Portfolio
+
+This portfolio is created to:
+
+- 👋 **Introduce myself** and my background  
+- 💻 **Showcase my technical skills and projects**  
+- 🎓 **Present my education details**  
+- 📄 **Provide easy access to my resume**  
+- 🔗 **Share my social media profiles**
+
+The design is **minimal**, **easy to navigate**, and **well-suited for students and beginners**.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Next.js**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
+- **Shadcn UI**
+
+---
+
+## ▶️ Getting Started
+
+To run this project locally, start the development server:
 
 ```bash
 npm run dev
@@ -16,45 +47,82 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+Then open your browser and visit:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+arduino
+Copy code
+http://localhost:3000
+You can edit the main page by modifying:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+bash
+Copy code
+app/page.tsx
+All changes will be reflected automatically.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project uses next/font to optimize and load the Inter Google Font.
 
-## Configuration
+⚙️ Configuration
+All personal details used in this portfolio are managed through a single configuration file:
 
-This project uses a centralized configuration approach for all personal information. The main configuration file is located at:
-
-```
+arduino
+Copy code
 src/config/portfolio.config.ts
-```
+This approach keeps the project clean, organized, and easy to update.
 
-### Configuration Structure
-
+📁 Configuration Structure
 The configuration file contains the following sections:
 
-- **Basic Information**: Name, title, description, location
-- **Contact Information**: Email and other contact details
-- **Social Media Links**: Links to various social media profiles
-- **SEO Information**: Keywords, metadata, and SEO-related settings
-- **About Information**: Bio, hobbies, and personal details
-- **Skills**: Programming languages, frameworks, tools, and professional roles
-- **Education**: Academic background and qualifications
-- **Projects**: Portfolio of projects with descriptions and links
-- **More Links**: Additional external links and resources
+Basic Information
+Name, role, short description, and location
 
-### Customizing Your Portfolio
+Contact Information
+Email address and other contact details
 
-To personalize the portfolio, simply edit the values in the `portfolio.config.ts` file. All changes will be reflected throughout the site automatically without having to modify multiple files.
+Social Media Links
+Links to GitHub, LinkedIn, and other platforms
 
-Example usage in a component:
+SEO Information
+Keywords and metadata for better search visibility
 
-```typescript
+About Information
+A short introduction, interests, and personal details
+
+Skills
+Programming languages, tools, and technologies
+
+Education
+Academic background and current studies
+
+Projects
+Project list with descriptions and live/demo links
+
+More Links
+Resume, certifications, achievements, and useful resources
+
+✏️ Customizing the Portfolio
+To personalize this portfolio, simply update the values inside:
+
+arduino
+Copy code
+src/config/portfolio.config.ts
+All changes will automatically reflect across the website without modifying multiple files.
+
+Example Usage in a Component
+ts
+Copy code
 import { portfolioConfig } from "@/config/portfolio.config";
 
 // Access configuration values
 const { name, title } = portfolioConfig;
-```
+📄 Resume
+My resume is available on the website and can be downloaded using the
+⬇️ Download Resume button.
+
+👤 Author
+Koushik S
+🎓 Computer Science Engineering Student
+💡 Aspiring Software Developer
+
+⭐ Feedback
+If you find this portfolio useful or have suggestions for improvement,
+feel free to share feedback or star ⭐ the repository.
