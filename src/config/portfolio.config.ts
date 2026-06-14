@@ -212,6 +212,13 @@ export const portfolioConfig = {
       link: "https://github.com/koushik-2006/Youtube-Channel-Performance-and-Engagement-Analytics-Dashboard",
     },
 
+    {
+      title: "Easy pAy – Banking Account Management System ",
+      description:
+        "Easy pAy is a comprehensive banking account management system that provides users with a seamless experience for managing their financial transactions and accounts.",
+      tags: ["HTML", "CSS", "JavaScript", "Java"],
+      link: "https://koushik-2006.github.io/Banking-Account-Management-System/",
+    },
     // you can add more projects here like the same format as above 
   ],
 
