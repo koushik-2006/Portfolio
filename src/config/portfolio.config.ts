@@ -204,6 +204,14 @@ export const portfolioConfig = {
       link: "https://koushik-2006.github.io/Expense-Tracker-/",
     },
 
+    {
+      title: "Youtube-Channel Performance and Engagement Analytics-Dashboard  ",
+      description:
+        "YouTube Channel Performance and Engagement Analytics Dashboard is a data-driven web application designed to help content creators, channel managers, and analysts monitor and evaluate the performance of YouTube channels effectively.",
+      tags: ["Streamlit", "YouTube Data API", "SQLAlchemy", "Python"],
+      link: "https://github.com/koushik-2006/Youtube-Channel-Performance-and-Engagement-Analytics-Dashboard",
+    },
+
     // you can add more projects here like the same format as above 
   ],
 
