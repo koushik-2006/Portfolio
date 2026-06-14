@@ -205,7 +205,7 @@ export const portfolioConfig = {
     },
 
     {
-      title: "Youtube-Channel Performance and Engagement Analytics-Dashboard  ",
+      title: "Youtube-Channel Performance and Engagement Analytics Dashboard  ",
       description:
         "YouTube Channel Performance and Engagement Analytics Dashboard is a data-driven web application designed to help content creators, channel managers, and analysts monitor and evaluate the performance of YouTube channels effectively.",
       tags: ["Streamlit", "YouTube Data API", "SQLAlchemy", "Python"],
