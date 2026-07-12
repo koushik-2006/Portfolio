@@ -219,6 +219,14 @@ export const portfolioConfig = {
       tags: ["HTML", "CSS", "JavaScript", "Java"],
       link: "https://koushik-2006.github.io/Banking-Account-Management-System/",
     },
+
+    {
+      title: "InspectAI - AI-Driven Inspection of Institutions",
+      description:
+        "InspectAI is an intelligent Government Inspection Platform designed to simplify and automate institutional inspections",
+      tags: ["HTML", "CSS", "JavaScript","Java"],
+      link: "https://koushik-2006.github.io/AI-Driven-Inspection-of-Institutions/",
+    },
     // you can add more projects here like the same format as above 
   ],
 
