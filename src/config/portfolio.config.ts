@@ -224,7 +224,7 @@ export const portfolioConfig = {
       title: "InspectAI - AI-Driven Inspection of Institutions",
       description:
         "InspectAI is an intelligent Government Inspection Platform designed to simplify and automate institutional inspections",
-      tags: ["HTML", "CSS", "JavaScript","SQL Lite"],
+      tags: ["HTML", "CSS", "JavaScript","SQL lite"],
       link: "https://koushik-2006.github.io/AI-Driven-Inspection-of-Institutions/",
     },
     // you can add more projects here like the same format as above 
