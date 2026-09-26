@@ -224,9 +224,17 @@ export const portfolioConfig = {
       title: "InspectAI - AI-Driven Inspection of Institutions",
       description:
         "InspectAI is an intelligent Government Inspection Platform designed to simplify and automate institutional inspections",
-      tags: ["HTML", "CSS", "JavaScript","SQL lite"],
+      tags: ["HTML", "CSS", "JavaScript", "SQL lite"],
       link: "https://koushik-2006.github.io/AI-Driven-Inspection-of-Institutions/",
     },
+    {
+      title: "Movie Ticket Booking Management - Pega NIP",
+      description:
+        "A Pega-based Movie Ticket Booking Management application developed during the Pega National Internship Program to automate booking workflows, seat availability, cost calculation, payments, SLA tracking, and ticket confirmation.",
+      tags: ["Pega", "Case Management", "Workflow Automation", "SLA", "JavaScript"],
+      link: "https://koushik-2006.github.io/movie-ticket-booking-management/",
+    },
+
     // you can add more projects here like the same format as above 
   ],
 
